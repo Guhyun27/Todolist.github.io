@@ -1,0 +1,62 @@
+* {
+  color: #d4b886;
+}
+.hidden {
+  display: none;
+}
+#center-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("your-image-path.jpg"); /* Add this line */
+  background-size: cover; /* Add this line */
+  background-position: center; /* Add this line */
+}
+#weather {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+#todo-form {
+  padding: 20px;
+}
+input {
+  background: none;
+  appearance: none;
+  border: 0;
+  font-size: 22px;
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+input::placeholder {
+  color: white;
+  font-size: smaller;
+}
+
+input:focus,
+input:active {
+  outline: none;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  list-style: none;
+}
+li {
+  list-style: none;
+}
+button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+#quote {
+  position: fixed;
+  bottom: 20px;
+}
